@@ -20,7 +20,7 @@ def translate(raw_binary) -> List:
     return translated
         
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Translate 8 bit binary sequence to its corresponding ASCII.")
+    parser = argparse.ArgumentParser(description="Translate an 8 bit binary sequence to ASCII.")
     parser.add_argument("binary", type=str, nargs="+", help="Enter 8 bit binary sequence for translation.")
     # Example: python main.py 1011
     args = parser.parse_args()
